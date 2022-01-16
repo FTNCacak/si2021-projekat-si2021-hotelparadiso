@@ -1,0 +1,9 @@
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Jelena\source\repos\HotelApp\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
