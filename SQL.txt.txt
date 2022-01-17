@@ -1,0 +1,29 @@
+CREATE TABLE [dbo].[Gosti] (
+    [BrojLicneKarte] NVARCHAR (50) NOT NULL,
+    [Ime]            NVARCHAR (50) NOT NULL,
+    [Prezime]        NVARCHAR (50) NOT NULL,
+    [BrojTelefona]   NVARCHAR (50) NOT NULL,
+    [BrojSobe]       NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([BrojLicneKarte] ASC)
+);
+
+CREATE TABLE [dbo].[Radnici] (
+    [BrojLicneKarte] NVARCHAR (50) NOT NULL,
+    [Ime]            NVARCHAR (50) NOT NULL,
+    [Prezime]        NVARCHAR (50) NOT NULL,
+    [BrojTelefona]   NVARCHAR (50) NOT NULL,
+    [StrucnaSprema]  NVARCHAR (50) NOT NULL,
+    [Username]       NVARCHAR (50) NOT NULL,
+    [Email]          NVARCHAR (50) NOT NULL,
+    [Password]       NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([BrojLicneKarte] ASC)
+);
+
+CREATE TABLE [dbo].[Sobe] (
+    [BrojSobe]   INT IDENTITY (1, 1) NOT NULL,
+    [BrojSprata] INT NOT NULL,
+    [BrojOsoba]  INT NOT NULL,
+    [Kvadratura] INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([BrojSobe] ASC)
+);
+
